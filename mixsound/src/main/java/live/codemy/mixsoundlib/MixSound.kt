@@ -28,10 +28,7 @@ class MixSound : TextToSpeech.OnInitListener {
             SoundType.Slow -> textToSpeech.setSpeechRate(0.1f)
             SoundType.Chipmunk -> textToSpeech.setPitch(2f)
             SoundType.DarthVader -> textToSpeech.setPitch(0.1f)
-            SoundType.Echo -> {
-            }
-            SoundType.Reverb -> {
-            }
+
         }
         textToSpeech.speak()
     }

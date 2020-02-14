@@ -9,4 +9,88 @@
     android:padding="16dp"
     tools:context=".MainActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <ImageButton
+            android:id="@+id/imgviewregister"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:layout_weight="1"
+            android:background="@mipmap/record2"
+            android:minWidth="100dp"
+            android:minHeight="100dp"></ImageButton>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="32dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imgbtnslow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:layout_weight="1"
+            android:background="@mipmap/kaplumbaga"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/imgbtnfast"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:layout_weight="1"
+            android:background="@mipmap/tavsan"></ImageButton>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imgbtnthin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:layout_weight="1"
+            android:background="@mipmap/kedi2"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/imgbtnpowerful"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:layout_weight="1"
+            android:background="@mipmap/tiger2"></ImageButton>
+
+    </LinearLayout>
 </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+

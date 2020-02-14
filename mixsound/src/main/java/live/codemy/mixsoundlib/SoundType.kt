@@ -12,5 +12,5 @@ package live.codemy.mixsoundlib
  */
 
 enum class SoundType {
-    Fast, Slow, Chipmunk, DarthVader, Echo, Reverb
+    Fast, Slow, Chipmunk, DarthVader
 }
